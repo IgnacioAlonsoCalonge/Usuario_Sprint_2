@@ -1,0 +1,159 @@
+.MiPerfil{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    background-size: 400%;
+    justify-content: space-between;
+    animation:  bg-animation 20s infinite alternate;
+    /*background-image: linear-gradient(45deg, #7cc186 0, #6fc38f 4.55%, #62c499 9.09%, #53c5a3 13.64%, #43c5ad 18.18%, #30c6b8 22.73%, #17c6c2 27.27%, #00c5cc 31.82%, #00c5d5 36.36%, #00c4de 40.91%, #00c3e6 45.45%, #0cc1ed 50%, #2ebff3 54.55%, #46bdf7 59.09%, #5abafa 63.64%, #6eb7fc 68.18%, #80b4fc 72.73%, #91b1fb 77.27%, #a1adf9 81.82%, #b0a9f5 86.36%, #bea6ef 90.91%, #caa2e9 95.45%, #d69ee2 100%, white); }
+    */
+    background-image: linear-gradient(210deg, #aeffff 0, #78e6ff 25%, #79e0ee 50%, rgb(248, 255, 149) 80%,rgb(241, 178, 106) 100%); 
+  }
+  
+  
+  @keyframes bg-animation {
+    0% {background-position: left;}
+    100% {background-position: right;}
+  }
+
+
+.recordatorio h1{
+    font-family: "Montserrat";
+    font-size: 50px;
+    margin-top: 100px;
+}
+
+.recordatorio{
+    margin-left: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.recordatorio h3{
+    font-family: "Montserrat";
+    font-size: 50px;
+    margin-top: 50px;
+}
+
+
+.Verdespues h3{
+    font-family: "Montserrat";
+    font-size: 30px;
+    margin-left: 100px;
+    margin-top: 100px;
+}
+
+.sugerencias{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 700px;
+    background-color: rgb(221, 195, 123);
+    border-radius: 0% 100% 0% 100% / 62% 0% 100% 38% ;
+}
+
+.divsug{
+    width: 50%;
+}
+
+.textosug{
+    display: flex;
+    width: 900px;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 100px;
+    margin-top: 70px;
+    
+}
+
+.textosug h1{
+    font-family: "Montserrat";
+    font-size: 45px;
+}
+
+.textosug p{
+    font-family: "Montserrat";
+    font-size: 25px;
+    line-height: 40px;
+}
+
+.textosug button{
+    margin-top: 60px;
+    width: 300px;
+    height: 60px;
+    font-family: "Montserrat";
+    font-size: 20px;
+    border-radius: 20px;
+    border-color: #78e6ff;
+    background-color: rgba(54, 64, 87, 0.884);
+    border: none;
+    color: white;
+    transition: all 0.5s ease 0s;
+}
+
+.textosug button:hover{
+    background-color: rgb(248, 28, 101);
+    color: rgb(255, 255, 255);
+}
+
+.opcion_premium{
+    margin-left: 100px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.opcion_premium h3{
+    font-family: "Montserrat"; 
+    font-size: 30px;   
+}
+
+.opcion_premium p{
+
+    font-family: "Montserrat";
+    font-size: 20px;
+    margin-top: 50px;
+}
+
+.opcion_premium button {
+    margin-top: 30px;
+    width: 300px;
+    height: 60px;
+    font-family: "Montserrat";
+    font-size: 20px;
+    border-radius: 20px;
+    border-color: #78e6ff;
+    background-color: rgba(54, 64, 87, 0.884);
+    border: none;
+    color: white;
+    transition: all 0.5s ease 0s;
+}
+
+.opcion_premium button:hover{
+    background-color: rgb(248, 28, 101);
+    color: rgb(255, 255, 255);
+}
+
+.gestiondatospersonales{
+    margin-top: 100px;
+}
+
+.gestionando{
+    display: flex;
+    align-items: center;
+}
+
+.iconoEdit{
+    width: 35px;
+    height: 35px;
+    margin-left: 30px;
+    color: #123456;
+    transition: all 0.5s ease 0s;
+}
+
+.iconoEdit:hover{
+    color: rgb(199, 65, 199);
+    transform: scale(1.4);
+}

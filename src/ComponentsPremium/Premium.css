@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Montserrat:ital,wght@0,400;1,100&display=swap');
+
+  .premium_2{
+      display: flex;
+      width: 100%;
+      height: 85vh;
+      justify-content: space-between;
+      padding-top: 50px;
+      background-size: 400%;
+      animation:  bg-animation 20s infinite alternate;
+      /*background-image: linear-gradient(45deg, #7cc186 0, #6fc38f 4.55%, #62c499 9.09%, #53c5a3 13.64%, #43c5ad 18.18%, #30c6b8 22.73%, #17c6c2 27.27%, #00c5cc 31.82%, #00c5d5 36.36%, #00c4de 40.91%, #00c3e6 45.45%, #0cc1ed 50%, #2ebff3 54.55%, #46bdf7 59.09%, #5abafa 63.64%, #6eb7fc 68.18%, #80b4fc 72.73%, #91b1fb 77.27%, #a1adf9 81.82%, #b0a9f5 86.36%, #bea6ef 90.91%, #caa2e9 95.45%, #d69ee2 100%, white); }
+      */
+      background-image: linear-gradient(210deg, #aeffff 0, #78e6ff 25%, #79e0ee 50%, rgb(248, 255, 149) 80%,rgb(241, 178, 106) 100%); 
+    }
+    
+    
+    @keyframes bg-animation {
+      0% {background-position: left;}
+      100% {background-position: right;}    
+    }
+
+  .fotoprem img{
+      height: 750px;
+      width: 550px;
+      margin-left: 50px;
+      border-radius: 30px;
+      border-radius: 40px;
+      border: solid 4px black;
+      animation: opasity 7s;
+  }
+
+  @keyframes opasity{
+    0%{ opacity: 0;
+    }
+
+    100%{
+      opacity: 1;
+    }
+  }
+
+  .parrafazoprem{
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-left: 100px;
+      margin-right: 100px;
+  }
+
+  .parrafazoprem p{
+      font-family: "Montserrat";
+      font-size: 25px;
+      line-height: 35px;
+
+  }
+
+  .parrafazoprem h3{
+    font-family: "Montserrat";
+    font-size: 35px;
+    line-height: 35px;
+    color: rgb(9, 62, 110);
+
+  }
+
+  .parrafazoprem h1{
+    
+    font-family: "Architects Daughter";
+    margin-top: 80px;
+    font-size: 60px;
+    color: rgb(10, 66, 119);
+  }
+
+.parrafazoprem button{
+    width: 300px;
+    height: 60px;
+    margin-top: 40px;
+    border-radius: 20px;
+    font-family: "Montserrat";
+    font-size: 20px;
+    background-color: #123456;
+    color: white;
+    transition: all 0.5s ease 0s;
+}
+
+.parrafazoprem button:hover{
+    background-color: rgb(255, 179, 38);
+    color: black;
+}
